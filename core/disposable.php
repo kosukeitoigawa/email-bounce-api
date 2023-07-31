@@ -1,5 +1,6 @@
 <?php
 require "../vendor/autoload.php";
+include "../core/boot.php";
 include "../core/val_core.php";
 
 use EmailChecker\EmailChecker;
