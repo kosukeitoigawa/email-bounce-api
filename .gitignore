@@ -1,0 +1,5 @@
+# Ignore the "vendor" directory created by Composer
+/vendor/
+
+# Ignore Composer's lock file, as it's auto-generated
+composer.lock
