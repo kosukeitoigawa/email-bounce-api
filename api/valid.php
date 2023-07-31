@@ -15,7 +15,7 @@ if (isset($_GET['email'])) {
     $emailfilter = filter_var($email, FILTER_VALIDATE_EMAIL);
     if ($emailfilter == true) {
         if (is_disposable($email)) {
-            if ($mail->check($email)) {
+            if ($validmail->check($email)) {
                 $res = [
                     'code' => 200,
                     'status' => 'ok',
