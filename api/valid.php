@@ -1,4 +1,6 @@
 <?php
+define('ENVIRONMENT', 'production');
+
 include "../core/disposable.php";
 
 $validmail = new VerifyEmail();
